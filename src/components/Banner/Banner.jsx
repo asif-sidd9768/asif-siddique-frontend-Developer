@@ -3,10 +3,10 @@ import Space from "./Space/Space";
 
 const Banner = () => {
   return (
-    <div className="m-0 flex align-center justify-around overflow-hidden bg-black">
+    <section className="m-0 flex align-center justify-around flex-col md:flex-row overflow-hidden bg-black mx-auto">
       <BannerText />
       <Space />
-    </div>
+    </section>
   );
 };
 

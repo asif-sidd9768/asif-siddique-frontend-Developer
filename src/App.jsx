@@ -19,10 +19,14 @@ function App() {
   }, [dispatch, pageNumber]);
 
   return (
-    <div className="bg-black">
-      <Banner />
-      <Capsules />
-    </div>
+    <section className="bg-black">
+      <header>
+        <Banner />
+      </header>
+      <main>
+        <Capsules />
+      </main>
+    </section>
   );
 }
 
