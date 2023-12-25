@@ -1,8 +1,11 @@
-# React + Vite
+# SpaceX Capsules React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This React app provides a user-friendly interface to explore SpaceX capsules, featuring a grid with a list of capsules, pagination, filters, banners, and popup details.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Capsule Grid:** View a comprehensive grid of SpaceX capsules with essential details.
+- **Pagination:** Easily navigate through multiple pages of capsule entries.
+- **Filtering:** Refine your search using filters to find capsules based on specific criteria.
+- **Banner:** Stay informed with a prominent banner highlighting important information.
+- **Popup Detail:** Access detailed information about each capsule through a convenient popup.
