@@ -11,9 +11,9 @@ export const initialState = {
   selectedCapsuleData: {},
   loading: false,
   searchFilter: {
-    landings: null,
-    status: null,
-    type: null
+    landings: "",
+    status: "",
+    type: ""
   },
   dropdownValues: {
     landings: [],
